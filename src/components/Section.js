@@ -28,7 +28,7 @@ function Section({title,description,leftBtnText,rightBtnText,backgroundImg}) {
        
     </ButtonGroup>
     </Fade>
-    <DownArrow src='/Tesla_clone/Images/down-arrow.svg' />
+    <DownArrow src='/Tesla_clone/images/down-arrow.svg' />
     </Buttons>
     </Wrap>
   )
@@ -46,7 +46,7 @@ display:flex;
 flex-direction:column;
 justify-content:space-between;//vertical
 align-items:center;//horizontal
-background-image: ${props => `url("/Tesla_clone/Images/${props.bgImage}")`};
+background-image: ${props => `url("/Tesla_clone/images/${props.bgImage}")`};
 
 `
 const ItemText=styled.div`
